@@ -7,7 +7,7 @@
     "set": "Core",
     "rarity": "Standard",
     "subtype": "Icon",
-    "image": "images/cards/24.jpg"
+    "image": "images/cards/024.jpg"
   },
   {
     "id": "3",
@@ -19,4 +19,5 @@
     "subtype": "Golden Baller",
     "image": "images/cards/3.jpg"
   }
+
 ]
