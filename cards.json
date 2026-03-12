@@ -1,0 +1,83 @@
+[
+  {
+    "id":"1",
+    "player":"Lionel Messi",
+    "team":"Argentina",
+    "type":"Golden Baller",
+    "set":"Golden Baller",
+    "rarity":"Rare",
+    "subtype":"Golden Baller"
+  },
+  {
+    "id":"2",
+    "player":"Vinicius Junior",
+    "team":"Brazil",
+    "type":"Golden Baller",
+    "set":"Golden Baller",
+    "rarity":"Rare",
+    "subtype":"Golden Baller"
+  },
+  {
+    "id":"3",
+    "player":"Mohamed Salah",
+    "team":"Egypt",
+    "type":"Golden Baller",
+    "set":"Golden Baller",
+    "rarity":"Rare",
+    "subtype":"Golden Baller"
+  },
+  {
+    "id":"10",
+    "player":"Rayan Aït-Nouri",
+    "team":"Algeria",
+    "type":"Fan Favourite",
+    "set":"Core",
+    "rarity":"Standard",
+    "subtype":"Fan Favourite"
+  },
+  {
+    "id":"11",
+    "player":"Team Crest",
+    "team":"Algeria",
+    "type":"Crest",
+    "set":"Core",
+    "rarity":"Standard",
+    "subtype":"Crest"
+  },
+  {
+    "id":"12",
+    "player":"Riyad Mahrez",
+    "team":"Algeria",
+    "type":"Icon",
+    "set":"Core",
+    "rarity":"Standard",
+    "subtype":"Icon"
+  },
+  {
+    "id":"22",
+    "player":"Julian Alvarez",
+    "team":"Argentina",
+    "type":"Fan Favourite",
+    "set":"Core",
+    "rarity":"Standard",
+    "subtype":"Fan Favourite"
+  },
+  {
+    "id":"23",
+    "player":"Team Crest",
+    "team":"Argentina",
+    "type":"Crest",
+    "set":"Core",
+    "rarity":"Standard",
+    "subtype":"Crest"
+  },
+  {
+    "id":"24",
+    "player":"Lionel Messi",
+    "team":"Argentina",
+    "type":"Icon",
+    "set":"Core",
+    "rarity":"Standard",
+    "subtype":"Icon"
+  }
+]

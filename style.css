@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: #cbd5e1;
+}
+
+.panel {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.progress-header,
+.cards-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+#stats,
+#cardCountLabel {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+#progressBar {
+  width: 100%;
+  height: 22px;
+  background: #334155;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+#progressFill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  transition: width 0.2s ease;
+}
+
+.button-row,
+.filter-row,
+.search-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button,
+select,
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-size: 0.95rem;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+input,
+select {
+  background: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+}
+
+#search {
+  width: 100%;
+}
+
+.team-progress {
+  display: grid;
+  gap: 12px;
+}
+
+.team-item {
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.team-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  gap: 10px;
+  font-size: 0.92rem;
+}
+
+.team-bar {
+  height: 10px;
+  background: #334155;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.team-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #38bdf8, #2563eb);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: #1e293b;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  padding: 14px;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.22);
+}
+
+.card.owned {
+  border-color: #22c55e;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.card-id {
+  font-weight: bold;
+  color: #f8fafc;
+}
+
+.card-set {
+  font-size: 0.8rem;
+  color: #cbd5e1;
+  background: #0f172a;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid #334155;
+}
+
+.card-player {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.card-team {
+  font-size: 0.92rem;
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.badge {
+  font-size: 0.78rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #334155;
+  color: #e5e7eb;
+}
+
+.badge.type {
+  background: #7c3aed;
+}
+
+.badge.subtype {
+  background: #0369a1;
+}
+
+.badge.rarity.standard {
+  background: #475569;
+}
+
+.badge.rarity.rare {
+  background: #b45309;
+}
+
+.badge.rarity.ultra-rare {
+  background: #be123c;
+}
+
+.badge.rarity.limited-edition {
+  background: #15803d;
+}
+
+.badge.rarity.exclusive {
+  background: #9333ea;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.86rem;
+  color: #cbd5e1;
+}
+
+.count-box {
+  font-weight: bold;
+  color: #86efac;
+}
+
+.empty-message {
+  color: #cbd5e1;
+  padding: 8px 0;
+}
+
+#tradeList {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  padding: 14px;
+  color: #e5e7eb;
+  min-height: 120px;
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-header,
+  .cards-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
