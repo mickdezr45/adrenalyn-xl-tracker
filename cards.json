@@ -1,0 +1,22 @@
+[
+  {
+    "id": "24",
+    "player": "Lionel Messi",
+    "team": "Argentina",
+    "type": "Icon",
+    "set": "Core",
+    "rarity": "Standard",
+    "subtype": "Icon",
+    "image": "images/cards/24.jpg"
+  },
+  {
+    "id": "3",
+    "player": "Mohamed Salah",
+    "team": "Egypt",
+    "type": "Golden Baller",
+    "set": "Golden Baller",
+    "rarity": "Rare",
+    "subtype": "Golden Baller",
+    "image": "images/cards/3.jpg"
+  }
+]
